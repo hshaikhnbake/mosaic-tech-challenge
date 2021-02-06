@@ -31,7 +31,7 @@ run `npm install` in `/server` directory
 
 4. For Step 2 Solution performing a GET request on `https://localhost:1337/:tags/:sortBy?/:direction?`
 
-| Paramters | Explination                                                        | Example                                     |
+| Parameters | Explination                                                        | Example                                     |
 | --------- | ------------------------------------------------------------------ | ------------------------------------------- |
 | tags      | can be single tags or multiple tags (to be seperated with a comma) | Example 1: science, Example 2: science,tech |
 | sortBy    | the field to sort the posts by specific property                   | `id` `reads` `likes` `popularity`           |
