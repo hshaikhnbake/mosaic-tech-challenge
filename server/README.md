@@ -29,7 +29,7 @@ run `npm install` in `/server` directory
 
 3. For Step 1 Solution perform a GET request on `https://localhost:1337/api/ping`
 
-4. For Step 2 Solution performing a GET request on `https://localhost:1337/:tags/:sortBy?/:direction?`
+4. For Step 2 Solution perform a GET request on `https://localhost:1337/:tags/:sortBy?/:direction?`
 
 | Parameters | Explination                                                        | Example                                     |
 | --------- | ------------------------------------------------------------------ | ------------------------------------------- |
