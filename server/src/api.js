@@ -18,7 +18,7 @@ router.get('/posts/:tags/:sortBy?/:direction?', (req, res) => {
 
   let multipleTags = tags.split(',');
   
-  if (directionValues.indexOf(direction) === -1) return res.status(400).send({ error: 'sortBy parameter is invalid'});
+  if (directionValues.indexOf(direction) === -1) return res.status(400).send({ error: 'direction parameter is invalid'});
   if (sortValues.indexOf(sortBy) === - 1) return res.status(400).send({ error: 'sortBy parameter is invalid' })
 
   if (typeof multipleTags[1] === 'string') {
